@@ -4,10 +4,8 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
-
-
-/* typography */
 
 body {
     height: 100%;
@@ -18,6 +16,11 @@ body {
     background-color: rgb(39, 39, 39);
 }
 
+.unsplash {
+    text-align: center;
+    font-size: 40px;
+}
+
 a {
     color: rgb(198, 198, 198);
 }
@@ -26,4 +29,24 @@ a {
     float: left;
     margin: 15px;
     box-shadow: 0 0 10px 0 red;
+}
+
+.float-p {
+    margin: 30px;
+}
+
+.box-overflow {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 0 10px 0 red;
+    overflow: Auto;
+    margin: 40px auto 0px auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(198, 198, 198);
+    text-align: center;
+    margin-top: 40px;
 }
